@@ -1,0 +1,12 @@
+name,loss,gain,net,base,name_label,year,loss_ii,gain_ii
+v1,1160.719,NA,NA,0,Investment Performance,2001,NA,NA
+v2,540.487,NA,NA,1160.719,Changes to Actuarial Methds & Assumptions,2001,NA,NA
+v3,508.25,NA,NA,1701.206,Changes to Benefits,2001,NA,NA
+v4,321.614,NA,NA,2209.456,Negative Amortization,2001,NA,NA
+v5,177.032,NA,NA,2531.07,Other,2001,NA,NA
+v6,56.174,NA,NA,2708.102,Unclassified Liability Gain/Loss,2001,NA,NA
+v7,38.92,NA,NA,2764.276,Deviations from Demographic Assumptions,2001,NA,NA
+v8,NA,199.879,NA,2564.397,Gains from Expected Pay Increases Not Given,2001,NA,NA
+net,NA,NA,2603.317,0,"Net Change
+to Unfunded
+Liability",2001,NA,NA

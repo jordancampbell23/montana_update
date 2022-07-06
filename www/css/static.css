@@ -1,0 +1,594 @@
+/*------------------------------CUSTOM CSS PENSION MODEL---------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  overflow-x: hidden !important;
+  background-color: #f5f5f5;
+}
+
+
+.featured-article article.featured .content {
+  margin-left: 30px;
+  flex-basis: 100%;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .featured-article article.featured .content {
+    text-align: center;
+  }
+}
+
+.featured-article article.featured .content h2 {
+  margin-bottom: 20px;
+}
+
+.featured-article article.featured .content h2 a {
+  font-size: 30px;
+  color: #000;
+  display: inline-block;
+}
+
+.featured-article article.featured .content h2 a:hover {
+  color: #ff6633;
+}
+
+.featured-article article.featured .content p {
+  margin-bottom: 25px;
+}
+
+
+.company-fun-facts h2 {
+  margin-bottom: 30px;
+}
+
+.company-fun-facts .fun-fact {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.company-fun-facts .fun-fact i {
+  font-size: 25px;
+  display: inline-block;
+  margin-bottom: 10px;
+  line-height: 60px;
+  height: 60px;
+  width: 60px;
+  border: 1px solid #000;
+  border-radius: 100%;
+}
+
+
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.center-div {
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+}
+
+.b-green {
+	color: #59a003;
+}
+
+.b-blue {
+	color: #0467bf;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption, .carousel-caption > .active > a {
+  font-family: "Open Sans", sans-serif;
+  z-index: 10;
+  font-weight: 800;
+  background-color: #000;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption p {
+  z-index: 10;
+  font-weight: 800;
+  color: white;
+  font-size: 28px;
+}
+
+.carousel-caption h1 {
+	font-weight: 800 !important;
+  color: white;
+  font-size: 52px;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+.carousel input {
+    max-width: 400px;
+    display: inline;
+    padding: 24px 14px;
+    font-size: 21px;
+}
+
+#myCarousel {
+  margin-top: 0px;
+  width: 100%;
+  margin-left: -20px;
+}
+
+@media (max-width: 400px) {
+  #myCarousel {
+    width: 100%;
+  }
+}
+
+
+
+/* Ticker */
+
+
+.onoffswitch3
+{
+    position: relative; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+
+.onoffswitch3-checkbox {
+    display: none;
+}
+
+.onoffswitch3-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 0px solid #999999; border-radius: 0px;
+}
+
+.onoffswitch3-inner {
+    display: block; width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch3-inner > span {
+    display: block; float: left; position: relative; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: "Open Sans", sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+.onoffswitch3-inner .onoffswitch3-active {
+    padding-left: 10px;
+    background-color: #EEEEEE; color: #FFFFFF;
+}
+
+.onoffswitch3-inner .onoffswitch3-inactive {
+    width: 100px;
+    padding-left: 16px;
+    background-color: #EEEEEE; color: #FFFFFF;
+    text-align: right;
+}
+
+.onoffswitch3-switch {
+    display: block; width: 50%; margin: 0px; text-align: center; 
+    border: 0px solid #999999;border-radius: 0px; 
+    position: absolute; top: 0; bottom: 0;
+}
+.onoffswitch3-active .onoffswitch3-switch {
+    background: #27A1CA; left: 0;
+    width: 160px;
+}
+.onoffswitch3-inactive{
+    background: #A1A1A1; right: 0;
+    width: 20px;
+}
+.onoffswitch3-checkbox:checked + .onoffswitch3-label .onoffswitch3-inner {
+    margin-left: 0;
+}
+
+.glyphicon-remove{
+    padding: 3px 0px 0px 0px;hr {
+  border:none;
+  height: 20px;
+ 	width: 90%;
+	height: 50px;
+	margin-top: 0;
+	border-bottom: 3px solid #1f1209;
+	box-shadow: 0 30px 30px -20px #333;
+  margin: -50px auto 10px; 
+}
+    color: #fff;
+    background-color: #000;
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+}
+
+.scroll-text{
+    color: #000;
+    background-color: #ff784e;
+}
+
+/* Footer */
+
+.footer-main {
+  padding: 50px 0;
+  background: #2e3745;
+}
+
+@media (max-width: 768px) {
+  .footer-main {
+    padding: 50px 0;
+  }
+}
+
+.footer-main .block img {
+  margin-bottom: 20px;
+}
+
+
+
+.footer-main .block-2 h6 {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.footer-main .block-2 ul {
+  padding: 0;
+}
+
+.footer-main .block-2 ul li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.footer-main .block-2 ul li a {
+  font-size: 14px;
+  color: #fff;
+  transition: .2s ease;
+}
+
+.footer-main .block-2 ul li a:hover {
+  color: #f63;
+}
+
+
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-md-4, .marketing .col-md-6 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: 600;
+}
+.marketing .col-md-4 p, .marketing .col-md-6 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+.featurette-heading .text-muted {
+	font-weight: 200;
+}
+
+hr {
+  border:none;
+  height: 30px;
+ 	width: 75%;
+	margin-top: 50px;
+	border-bottom: 2px solid #d3d3d3;
+}
+
+.featurette .collapse {
+	background: transparent !important;
+}
+
+.transparent-panel-group .panel-heading {
+	background: transparent !important;
+}
+
+.transparent-panel-group .panel-default {
+	border-color: transparent !important;
+	border: none !important;
+	background: none !important;
+}
+
+.transparent-panel-group .panel-body {
+	border-top: none !important;
+	padding-top: 0px !important;
+}
+
+.transparent-panel-group .panel {
+	background-color: transparent !important;
+	border: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 992px) {
+	.center-on-xs {
+		text-align: center;
+	}
+
+	.center-on-xs ul, .center-on-xs ol, .center-on-xs .alert {
+		text-align: left;
+	}
+
+	.center-on-xs img {
+		margin: 0 auto;
+	}
+
+	.featurette-divider {
+		margin: 20px 0;
+	}
+
+	.col-md-3 img {
+		max-width: 350px;
+	}
+}
+
+@media (max-width: 768px) {
+	.featurette-image {
+		max-width: 50%;
+	}
+}
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-left:  15px;
+    padding-right: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-left:  0;
+    padding-right: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+.table-center > tbody > tr > td, .table-center > thead > tr > th {
+	text-align: center;
+}
+
+.table > tbody > tr > td, .table > thead > tr > th {
+	vertical-align: middle;
+}
+
+/* PRINT CSS
+-------------------------------------------------- */
+
+@media print and (color) {
+	* {
+		-webkit-print-color-adjust: exact;
+		print-color-adjust: exact;
+	}
+}
+
+@media print {
+	body {
+		print-color-adjust: exact;
+		-webkit-print-color-adjust: exact;
+		font-size: 12px !important;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+
+	.b-blue {
+		print-color-adjust: exact;
+		-webkit-print-color-adjust: exact;
+	}
+
+	.container {
+		margin: 0 !important;
+	}
+
+	p {
+		margin-bottom: 5px;
+	}
+
+	.featurette-heading {
+		font-size: 18px;
+		text-align: left !important;
+		margin-bottom: 10px !important;
+	}
+
+	h1 {
+		font-size: 16px;
+		margin-top: 24px;
+		padding: 14px;
+		background-color: #9d5123 !important;
+		color: white !important;
+		border-radius: 3px;
+	}
+
+	h2 {
+		font-size: 14px;
+		margin-top: 20px;
+		padding: 8px;
+		background-color: #75b1e6 !important;
+		color: #3e1c0e !important;
+		border-radius: 3px;
+	}
+
+	h3 {
+		font-size: 12px;
+		margin-top: 20px;
+	}
+
+	h4 {
+		font-size: 12px;
+		margin-top: 20px;
+	}
+
+	h5 {
+		font-size: 12px;
+		font-style: italic;
+		margin-top: 20px;
+	}
+
+	i.fa {
+		color: inherit !important;
+	}
+
+	i.fa.fa-check.b-green {
+		color: #59a003 !important;
+	}
+
+	/* Link styles */
+		a {
+			text-decoration: none;
+			word-wrap: break-word;
+		}
+
+		a[href^=http]:after {
+			content:" (" attr(href) ") ";
+			font-size:0.8em !important;
+			font-weight:normal !important;
+		}
+
+		a[href^="/"]:after {
+			content:" (http://beehive" attr(href) ") ";
+			font-size:0.8em !important;
+			font-weight:normal !important;
+		}
+
+		$a:after > img {
+			content: "";
+		}
+
+		a[href^="#"]:after {
+			content: "";
+		}
+
+		a:not(:local-link):after {
+			content:" (" attr(href) ") ";
+			font-size:0.8em !important;
+			font-weight:normal !important;
+		}
+
+	.screenshot {
+		width: 50%;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	ul, img {
+		page-break-inside: avoid;
+	}
+
+	img {
+		max-width: 100% !important;
+	}
+
+	.footer img {
+		margin-bottom: 20px !important;
+		width: 30%;
+	}
+
+	.center-on-xs {
+		text-align: left;
+	}
+
+	.center-on-xs img {
+		margin: 0 auto;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
